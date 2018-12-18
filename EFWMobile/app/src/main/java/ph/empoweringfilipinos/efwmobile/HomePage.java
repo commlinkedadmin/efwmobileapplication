@@ -1,19 +1,13 @@
 package ph.empoweringfilipinos.efwmobile;
 
-import android.graphics.Color;
+import android.content.Intent;
 import android.os.Bundle;
-import android.os.Message;
-import com.getbase.floatingactionbutton.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.Toast;
-import com.github.clans.fab.FloatingActionMenu;
 
 import com.synnapps.carouselview.CarouselView;
 import com.synnapps.carouselview.ImageListener;
@@ -53,6 +47,9 @@ public class HomePage extends AppCompatActivity {
             public void onClick(View view){
 
                 //code here
+                Intent newsPage = new Intent(HomePage.this, NewsPage.class);
+                startActivity(newsPage);
+
             }
         });
 

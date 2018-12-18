@@ -12,85 +12,6 @@
         android:id="@+id/include"
         layout="@layout/content_home_page" />
 
-    <!--<android.support.design.widget.FloatingActionButton-->
-        <!--android:id="@+id/fab"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_gravity="bottom|end"-->
-        <!--android:layout_margin="@dimen/fab_margin"-->
-        <!--app:srcCompat="@android:drawable/ic_dialog_email"-->
-        <!--android:background="@color/colorPrimary"/>-->
-
-
-
-
-
-    <!--<com.getbase.floatingactionbutton.FloatingActionsMenu-->
-
-        <!--android:id="@+id/fam"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_alignParentBottom="true"-->
-        <!--android:layout_alignParentEnd="true"-->
-        <!--android:layout_marginBottom="16dp"-->
-        <!--android:layout_marginEnd="16dp"-->
-        <!--app:fab_addButtonColorNormal="@color/colorPrimary"-->
-        <!--app:fab_addButtonColorPressed="@color/white"-->
-        <!--app:fab_addButtonPlusIconColor="@color/white"-->
-        <!--app:fab_labelStyle="@style/custom_fab">-->
-
-        <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
-            <!--android:id="@+id/fabNews"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_margin="10dp"-->
-            <!--app:fab_colorNormal="@color/white"-->
-            <!--app:fab_colorPressed="@color/white_pressed"-->
-            <!--app:fab_size="normal"-->
-            <!--app:fab_icon="@drawable/ic_news_icon"-->
-            <!--app:fab_title="News"-->
-            <!--/>-->
-
-        <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
-            <!--android:id="@+id/fabBlogs"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_margin="10dp"-->
-            <!--app:fab_colorNormal="@color/white"-->
-            <!--app:fab_colorPressed="@color/white_pressed"-->
-            <!--app:fab_size="normal"-->
-            <!--app:fab_icon="@drawable/ic_blogs_icons"-->
-            <!--app:fab_title="Blogs"-->
-            <!--/>-->
-
-        <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
-            <!--android:id="@+id/fabCommunities"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_margin="10dp"-->
-            <!--app:fab_colorNormal="@color/white"-->
-            <!--app:fab_colorPressed="@color/white_pressed"-->
-            <!--app:fab_size="normal"-->
-            <!--app:fab_icon="@drawable/ic_community_icon"-->
-            <!--app:fab_title="Communities"-->
-            <!--/>-->
-
-        <!--<com.getbase.floatingactionbutton.FloatingActionButton-->
-            <!--android:id="@+id/fabAboutUs"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_margin="10dp"-->
-            <!--app:fab_colorNormal="@color/white"-->
-            <!--app:fab_colorPressed="@color/white_pressed"-->
-            <!--app:fab_size="normal"-->
-            <!--app:fab_icon="@drawable/ic_about_us_icon"-->
-            <!--app:fab_title="About Us"-->
-            <!--/>-->
-
-
-
-
-    <!--</com.getbase.floatingactionbutton.FloatingActionsMenu>-->
 
 
     <com.github.clans.fab.FloatingActionMenu
@@ -102,7 +23,7 @@
         app:menu_colorNormal="@color/white"
         app:menu_fab_size="mini"
         app:menu_shadowRadius="15dp"
-        app:menu_icon="@drawable/empoy2_icon">
+        app:menu_icon="@drawable/empoy_logo3">
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/fabNews"
